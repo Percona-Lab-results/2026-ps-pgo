@@ -1,0 +1,168 @@
+2026-06-09T13:52:09.885192Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2026-06-09T13:52:10.004965Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2026-06-09T13:52:10.005049Z 0 [Note] [MY-010098] [Server] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-06-09T13:52:10.005053Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-log-path: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2026-06-09T13:52:10.005084Z 0 [Note] [MY-013932] [Server] BuildID[sha1]=fc49d3fd6829b66e84c5b47f3bbf808f5e9c6383
+2026-06-09T13:52:10.005088Z 0 [Note] [MY-010949] [Server] Basedir set to /mnt/nvme/servers/no-pgo/Percona-Server-8.4.9-9-Linux.x86_64.glibc2.35/.
+2026-06-09T13:52:10.005093Z 0 [System] [MY-010116] [Server] /home/bogdan.degtyariov/servers/no-pgo/Percona-Server-8.4.9-9-Linux.x86_64.glibc2.35//bin/mysqld (mysqld 8.4.9-9) starting as process 1014492
+2026-06-09T13:52:10.021460Z 0 [Warning] [MY-010122] [Server] One can only use the --user switch if running as root
+2026-06-09T13:52:10.030417Z 0 [Note] [MY-012366] [InnoDB] Using Linux native AIO
+2026-06-09T13:52:10.030528Z 0 [Note] [MY-010747] [Server] Plugin 'FEDERATED' is disabled.
+2026-06-09T13:52:10.030597Z 0 [Note] [MY-010747] [Server] Plugin 'ndbcluster' is disabled.
+2026-06-09T13:52:10.030609Z 0 [Note] [MY-010747] [Server] Plugin 'ndbinfo' is disabled.
+2026-06-09T13:52:10.030615Z 0 [Note] [MY-010747] [Server] Plugin 'ndb_transid_mysql_connection_map' is disabled.
+2026-06-09T13:52:10.030688Z 0 [Note] [MY-010747] [Server] Plugin 'mysql_native_password' is disabled.
+2026-06-09T13:52:10.032008Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-06-09T13:52:10.032048Z 1 [Note] [MY-013546] [InnoDB] Atomic write enabled
+2026-06-09T13:52:10.032082Z 1 [Note] [MY-012932] [InnoDB] PUNCH HOLE support available
+2026-06-09T13:52:10.032094Z 1 [Note] [MY-012944] [InnoDB] Uses event mutexes
+2026-06-09T13:52:10.032100Z 1 [Note] [MY-012945] [InnoDB] GCC builtin __atomic_thread_fence() is used for memory barrier
+2026-06-09T13:52:10.032107Z 1 [Note] [MY-012948] [InnoDB] Compressed tables use zlib 1.3.2
+2026-06-09T13:52:10.036523Z 1 [Note] [MY-012951] [InnoDB] Using hardware accelerated crc32 and polynomial multiplication.
+2026-06-09T13:52:10.037049Z 1 [Note] [MY-012203] [InnoDB] Directories to scan './'
+2026-06-09T13:52:10.037094Z 1 [Note] [MY-012204] [InnoDB] Scanning './'
+2026-06-09T13:52:10.038799Z 1 [Note] [MY-012208] [InnoDB] Completed space ID check of 4 files.
+2026-06-09T13:52:10.041423Z 1 [Note] [MY-012955] [InnoDB] Initializing buffer pool, total size = 32.250000G, instances = 6, chunk size =128.000000M 
+2026-06-09T13:52:10.041451Z 1 [Note] [MY-011872] [InnoDB] Setting NUMA memory policy to MPOL_INTERLEAVE
+2026-06-09T13:52:29.374017Z 1 [Note] [MY-011874] [InnoDB] Setting NUMA memory policy to MPOL_DEFAULT
+2026-06-09T13:52:29.374069Z 1 [Note] [MY-012957] [InnoDB] Completed initialization of buffer pool
+2026-06-09T13:52:29.582268Z 0 [Note] [MY-011952] [InnoDB] If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2026-06-09T13:52:29.582811Z 1 [Note] [MY-013532] [InnoDB] Using './#ib_16384_0.dblwr' for doublewrite
+2026-06-09T13:52:29.591367Z 1 [Note] [MY-013532] [InnoDB] Using './#ib_16384_1.dblwr' for doublewrite
+2026-06-09T13:52:29.617299Z 1 [Note] [MY-013566] [InnoDB] Double write buffer files: 2, --innodb-doublewrite-files=2, segments_per_file=6
+2026-06-09T13:52:29.617323Z 1 [Note] [MY-013565] [InnoDB] Double write buffer pages per instance: 128
+2026-06-09T13:52:29.617339Z 1 [Note] [MY-013532] [InnoDB] Using './#ib_16384_0.dblwr' for doublewrite
+2026-06-09T13:52:29.620664Z 1 [Note] [MY-013549] [InnoDB] ./#ib_16384_0.dblwr size increased to 12582912 bytes from 4194304 bytes
+2026-06-09T13:52:29.620688Z 1 [Note] [MY-013532] [InnoDB] Using './#ib_16384_1.dblwr' for doublewrite
+2026-06-09T13:52:29.624378Z 1 [Note] [MY-013549] [InnoDB] ./#ib_16384_1.dblwr size increased to 20971520 bytes from 12582912 bytes
+2026-06-09T13:52:29.826421Z 1 [Note] [MY-013883] [InnoDB] The latest found checkpoint is at lsn = 19422201 in redo log file ./#innodb_redo/#ib_redo5.
+2026-06-09T13:52:29.826549Z 1 [Note] [MY-013086] [InnoDB] Starting to parse redo log at lsn = 19421794, whereas checkpoint_lsn = 19422201 and start_lsn = 19421696
+2026-06-09T13:52:29.949124Z 1 [Note] [MY-013083] [InnoDB] Log background threads are being started...
+2026-06-09T13:52:29.949642Z 1 [Note] [MY-012532] [InnoDB] Applying a batch of 0 redo log records ...
+2026-06-09T13:52:29.949658Z 1 [Note] [MY-012535] [InnoDB] Apply batch completed!
+2026-06-09T13:52:29.950128Z 1 [Note] [MY-013252] [InnoDB] Using undo tablespace './undo_001'.
+2026-06-09T13:52:29.950520Z 1 [Note] [MY-013252] [InnoDB] Using undo tablespace './undo_002'.
+2026-06-09T13:52:29.951385Z 1 [Note] [MY-012910] [InnoDB] Opened 2 existing undo tablespaces.
+2026-06-09T13:52:29.951431Z 1 [Note] [MY-011980] [InnoDB] GTID recovery trx_no: 1556
+2026-06-09T13:52:29.978086Z 1 [Note] [MY-013776] [InnoDB] Parallel initialization of rseg complete
+2026-06-09T13:52:29.978107Z 1 [Note] [MY-013777] [InnoDB] Time taken to initialize rseg using 4 thread: 26 ms.
+2026-06-09T13:52:29.978166Z 1 [Note] [MY-012923] [InnoDB] Creating shared tablespace for temporary tables
+2026-06-09T13:52:29.978277Z 1 [Note] [MY-012265] [InnoDB] Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-06-09T13:52:29.983220Z 1 [Note] [MY-012266] [InnoDB] File './ibtmp1' size is now 12 MB.
+2026-06-09T13:52:29.983286Z 1 [Note] [MY-013627] [InnoDB] Scanning temp tablespace dir:'./#innodb_temp/'
+2026-06-09T13:52:29.988230Z 1 [Note] [MY-013018] [InnoDB] Created 128 and tracked 128 new rollback segment(s) in the temporary tablespace. 128 are now active.
+2026-06-09T13:52:29.988570Z 1 [Note] [MY-012976] [InnoDB] Percona XtraDB (http://www.percona.com) 8.4.9-9 started; log sequence number 19422227
+2026-06-09T13:52:29.989106Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-06-09T13:52:29.995890Z 1 [Note] [MY-011089] [Server] Data dictionary restarting version '80300'.
+2026-06-09T13:52:30.096928Z 1 [Note] [MY-012357] [InnoDB] Reading DD tablespace files
+2026-06-09T13:52:30.097515Z 1 [Note] [MY-012356] [InnoDB] Scanned 6 tablespaces. Validated 6.
+2026-06-09T13:52:30.121913Z 1 [Note] [MY-010006] [Server] Using data dictionary with version '80300'.
+2026-06-09T13:52:30.127346Z 0 [Note] [MY-011332] [Server] Plugin mysqlx reported: 'IPv6 is available'
+2026-06-09T13:52:30.128010Z 0 [Note] [MY-011323] [Server] Plugin mysqlx reported: 'X Plugin ready for connections. bind-address: '::' port: 33060'
+2026-06-09T13:52:30.128028Z 0 [Note] [MY-011323] [Server] Plugin mysqlx reported: 'X Plugin ready for connections. socket: '/tmp/mysqlx.sock''
+2026-06-09T13:52:30.153107Z 0 [Note] [MY-010902] [Server] Thread priority attribute setting in Resource Group SQL shall be ignored due to unsupported platform or insufficient privilege.
+2026-06-09T13:52:30.166963Z 0 [Note] [MY-013911] [Server] Crash recovery finished in binlog engine. No attempts to commit, rollback or prepare any transactions.
+2026-06-09T13:52:30.166987Z 0 [Note] [MY-013911] [Server] Crash recovery finished in InnoDB engine. No attempts to commit, rollback or prepare any transactions.
+2026-06-09T13:52:30.169370Z 0 [Note] [MY-012487] [InnoDB] DDL log recovery : begin
+2026-06-09T13:52:30.169628Z 0 [Note] [MY-012488] [InnoDB] DDL log recovery : end
+2026-06-09T13:52:30.173043Z 0 [Note] [MY-012922] [InnoDB] Waiting for purge to start
+2026-06-09T13:52:30.228413Z 0 [Note] [MY-010182] [Server] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2026-06-09T13:52:30.230821Z 0 [Note] [MY-010304] [Server] Skipping generation of SSL certificates as certificate files are present in data directory.
+2026-06-09T13:52:30.234863Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-06-09T13:52:30.234897Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-06-09T13:52:30.235242Z 0 [Note] [MY-010308] [Server] Skipping generation of RSA key pair through --sha256_password_auto_generate_rsa_keys as key files are present in data directory.
+2026-06-09T13:52:30.235549Z 0 [Note] [MY-010308] [Server] Skipping generation of RSA key pair through --caching_sha2_password_auto_generate_rsa_keys as key files are present in data directory.
+2026-06-09T13:52:30.239216Z 0 [Note] [MY-010252] [Server] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2026-06-09T13:52:30.239237Z 0 [Note] [MY-010264] [Server]   - '0.0.0.0' resolves to '0.0.0.0';
+2026-06-09T13:52:30.239255Z 0 [Note] [MY-010251] [Server] Server socket created on IP: '0.0.0.0'.
+2026-06-09T13:52:30.239736Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2026-06-09T13:52:30.241644Z 0 [Note] [MY-011071] [Server] Component percona_telemetry reported: 'Applying Telemetry grace interval 86400 seconds'
+2026-06-09T13:52:30.258283Z 0 [Note] [MY-011025] [Repl] Failed to start replica threads for channel ''.
+2026-06-09T13:52:30.260270Z 6 [Note] [MY-010051] [Server] Event Scheduler: scheduler thread started with id 6
+2026-06-09T13:52:30.260444Z 0 [Note] [MY-011240] [Server] Plugin mysqlx reported: 'Using SSL configuration from MySQL Server'
+2026-06-09T13:52:30.263079Z 0 [Note] [MY-011243] [Server] Plugin mysqlx reported: 'Using OpenSSL for TLS connections'
+2026-06-09T13:52:30.263215Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /tmp/mysqlx.sock
+2026-06-09T13:52:30.263302Z 0 [System] [MY-010931] [Server] /home/bogdan.degtyariov/servers/no-pgo/Percona-Server-8.4.9-9-Linux.x86_64.glibc2.35//bin/mysqld: ready for connections. Version: '8.4.9-9'  socket: '/tmp/mysql.sock'  port: 3306  Percona Server (GPL), Release 9, Revision 627bc2ec.
+2026-06-09T13:52:31.115226Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_deadlocks' is already enabled.
+2026-06-09T13:52:31.115256Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_deadlock_false_positives' is already enabled.
+2026-06-09T13:52:31.115263Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_deadlock_rounds' is already enabled.
+2026-06-09T13:52:31.115269Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_threads_waiting' is already enabled.
+2026-06-09T13:52:31.115274Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_timeouts' is already enabled.
+2026-06-09T13:52:31.115279Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_rec_release_attempts' is already enabled.
+2026-06-09T13:52:31.115284Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_rec_grant_attempts' is already enabled.
+2026-06-09T13:52:31.115290Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_row_lock_current_waits' is already enabled.
+2026-06-09T13:52:31.115294Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_row_lock_time' is already enabled.
+2026-06-09T13:52:31.115299Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_row_lock_time_max' is already enabled.
+2026-06-09T13:52:31.115304Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_row_lock_waits' is already enabled.
+2026-06-09T13:52:31.115309Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_row_lock_time_avg' is already enabled.
+2026-06-09T13:52:31.115314Z 11 [Note] [MY-012870] [InnoDB] Monitor 'lock_schedule_refreshes' is already enabled.
+2026-06-09T13:52:31.115318Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_size' is already enabled.
+2026-06-09T13:52:31.115323Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_reads' is already enabled.
+2026-06-09T13:52:31.115328Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_read_requests' is already enabled.
+2026-06-09T13:52:31.115333Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_write_requests' is already enabled.
+2026-06-09T13:52:31.115338Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_wait_free' is already enabled.
+2026-06-09T13:52:31.115346Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_read_ahead' is already enabled.
+2026-06-09T13:52:31.115358Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_read_ahead_evicted' is already enabled.
+2026-06-09T13:52:31.115363Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_total' is already enabled.
+2026-06-09T13:52:31.115368Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_misc' is already enabled.
+2026-06-09T13:52:31.115372Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_data' is already enabled.
+2026-06-09T13:52:31.115377Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_bytes_data' is already enabled.
+2026-06-09T13:52:31.115382Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_dirty' is already enabled.
+2026-06-09T13:52:31.115387Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_bytes_dirty' is already enabled.
+2026-06-09T13:52:31.115391Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_free' is already enabled.
+2026-06-09T13:52:31.115396Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_flushed' is already enabled.
+2026-06-09T13:52:31.115401Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pool_pages_lru_flushed' is already enabled.
+2026-06-09T13:52:31.115406Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pages_created' is already enabled.
+2026-06-09T13:52:31.115411Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pages_written' is already enabled.
+2026-06-09T13:52:31.115416Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pages_read' is already enabled.
+2026-06-09T13:52:31.115421Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_pages0_read' is already enabled.
+2026-06-09T13:52:31.115426Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_data_reads' is already enabled.
+2026-06-09T13:52:31.115430Z 11 [Note] [MY-012870] [InnoDB] Monitor 'buffer_data_written' is already enabled.
+2026-06-09T13:52:31.115442Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_data_reads' is already enabled.
+2026-06-09T13:52:31.115447Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_data_writes' is already enabled.
+2026-06-09T13:52:31.115451Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_data_fsyncs' is already enabled.
+2026-06-09T13:52:31.115456Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_log_bytes_written' is already enabled.
+2026-06-09T13:52:31.115461Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_log_fsyncs' is already enabled.
+2026-06-09T13:52:31.115466Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_log_pending_fsyncs' is already enabled.
+2026-06-09T13:52:31.115471Z 11 [Note] [MY-012870] [InnoDB] Monitor 'os_log_pending_writes' is already enabled.
+2026-06-09T13:52:31.115477Z 11 [Note] [MY-012870] [InnoDB] Monitor 'trx_rseg_history_len' is already enabled.
+2026-06-09T13:52:31.115493Z 11 [Note] [MY-012870] [InnoDB] Monitor 'log_waits' is already enabled.
+2026-06-09T13:52:31.115498Z 11 [Note] [MY-012870] [InnoDB] Monitor 'log_write_requests' is already enabled.
+2026-06-09T13:52:31.115503Z 11 [Note] [MY-012870] [InnoDB] Monitor 'log_writes' is already enabled.
+2026-06-09T13:52:31.115510Z 11 [Note] [MY-012870] [InnoDB] Monitor 'adaptive_hash_searches' is already enabled.
+2026-06-09T13:52:31.115515Z 11 [Note] [MY-012870] [InnoDB] Monitor 'adaptive_hash_searches_btree' is already enabled.
+2026-06-09T13:52:31.115520Z 11 [Note] [MY-012870] [InnoDB] Monitor 'file_num_open_files' is already enabled.
+2026-06-09T13:52:31.115525Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges_insert' is already enabled.
+2026-06-09T13:52:31.115530Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges_delete_mark' is already enabled.
+2026-06-09T13:52:31.115535Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges_delete' is already enabled.
+2026-06-09T13:52:31.115540Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges_discard_insert' is already enabled.
+2026-06-09T13:52:31.115545Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges_discard_delete_mark' is already enabled.
+2026-06-09T13:52:31.115552Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges_discard_delete' is already enabled.
+2026-06-09T13:52:31.115557Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_merges' is already enabled.
+2026-06-09T13:52:31.115565Z 11 [Note] [MY-012870] [InnoDB] Monitor 'ibuf_size' is already enabled.
+2026-06-09T13:52:31.115571Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_activity_count' is already enabled.
+2026-06-09T13:52:31.115576Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_dblwr_writes' is already enabled.
+2026-06-09T13:52:31.115581Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_dblwr_pages_written' is already enabled.
+2026-06-09T13:52:31.115586Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_page_size' is already enabled.
+2026-06-09T13:52:31.115591Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_s_spin_waits' is already enabled.
+2026-06-09T13:52:31.115595Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_x_spin_waits' is already enabled.
+2026-06-09T13:52:31.115601Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_sx_spin_waits' is already enabled.
+2026-06-09T13:52:31.115605Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_s_spin_rounds' is already enabled.
+2026-06-09T13:52:31.115610Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_x_spin_rounds' is already enabled.
+2026-06-09T13:52:31.115615Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_sx_spin_rounds' is already enabled.
+2026-06-09T13:52:31.115620Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_s_os_waits' is already enabled.
+2026-06-09T13:52:31.115625Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_x_os_waits' is already enabled.
+2026-06-09T13:52:31.115629Z 11 [Note] [MY-012870] [InnoDB] Monitor 'innodb_rwlock_sx_os_waits' is already enabled.
+2026-06-09T13:52:31.115637Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_inserts' is already enabled.
+2026-06-09T13:52:31.115642Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_deletes' is already enabled.
+2026-06-09T13:52:31.115647Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_updates' is already enabled.
+2026-06-09T13:52:31.115651Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_system_reads' is already enabled.
+2026-06-09T13:52:31.115656Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_system_inserts' is already enabled.
+2026-06-09T13:52:31.115661Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_system_deletes' is already enabled.
+2026-06-09T13:52:31.115666Z 11 [Note] [MY-012870] [InnoDB] Monitor 'dml_system_updates' is already enabled.
+2026-06-09T13:53:13.559949Z 0 [Warning] [MY-014084] [InnoDB] Threads are unable to reserve space in redo log which can't be reclaimed due to the 'log_checkpointer' consumer still lagging behind at LSN = 5501014295. Consider increasing innodb_redo_log_capacity.
+2026-06-09T13:53:25.864445Z 0 [Warning] [MY-014084] [InnoDB] Threads are unable to reserve space in redo log which can't be reclaimed due to the 'log_checkpointer' consumer still lagging behind at LSN = 8382181240. Consider increasing innodb_redo_log_capacity.
+2026-06-09T13:53:38.405479Z 0 [Warning] [MY-014084] [InnoDB] Threads are unable to reserve space in redo log which can't be reclaimed due to the 'log_checkpointer' consumer still lagging behind at LSN = 11314738096. Consider increasing innodb_redo_log_capacity.
+2026-06-09T13:53:49.765248Z 0 [Warning] [MY-014084] [InnoDB] Threads are unable to reserve space in redo log which can't be reclaimed due to the 'log_checkpointer' consumer still lagging behind at LSN = 13949608645. Consider increasing innodb_redo_log_capacity.
+2026-06-09T13:54:02.154313Z 0 [Warning] [MY-014084] [InnoDB] Threads are unable to reserve space in redo log which can't be reclaimed due to the 'log_checkpointer' consumer still lagging behind at LSN = 16809407721. Consider increasing innodb_redo_log_capacity.
+2026-06-09T13:54:15.976024Z 0 [Warning] [MY-014084] [InnoDB] Threads are unable to reserve space in redo log which can't be reclaimed due to the 'log_checkpointer' consumer still lagging behind at LSN = 20024196085. Consider increasing innodb_redo_log_capacity.

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MySQL 9.7.0 PGO Benchmark Reports</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        .reports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .report-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .report-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .report-card h2 {
+            color: #1a73e8;
+            font-size: 24px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .report-card .icon {
+            font-size: 28px;
+        }
+
+        .report-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .report-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .badge {
+            background: #f0f0f0;
+            color: #666;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge.size {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+
+        .badge.type {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .section-title {
+            color: white;
+            font-size: 28px;
+            font-weight: 600;
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .arrow {
+            margin-left: auto;
+            font-size: 20px;
+            color: #1a73e8;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+            opacity: 0.8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MySQL 9.7.0 PGO Benchmarks</h1>
+            <div class="subtitle">Performance comparison: mysql vs mysql-non-pgo</div>
+        </header>
+
+        <div class="section-title">📊 Performance Reports</div>
+        <div class="reports-grid">
+
+            <a href="sysbench_ps_mysql_individual.html" class="report-card">
+                <h2><span class="icon">📉</span>Sysbench Individual Runs</h2>
+                <p>Detailed view of each benchmark run with per-run performance breakdown and statistics.</p>
+                <div class="meta">
+                    <span class="badge type">Performance</span>
+                    <span class="badge size">49K</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+
+            <a href="sysbench_ps_mysql_average.html" class="report-card">
+                <h2><span class="icon">📈</span>Sysbench Average Results</h2>
+                <p>Aggregated performance metrics across all benchmark runs showing average throughput and latency.</p>
+                <div class="meta">
+                    <span class="badge type">Performance</span>
+                    <span class="badge size">32K</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+
+            <a href="innodb_metrics_report.html" class="report-card">
+                <h2><span class="icon">💾</span>InnoDB Metrics</h2>
+                <p>Interactive InnoDB storage engine metrics with multi-select controls for servers and runs.</p>
+                <div class="meta">
+                    <span class="badge type">Storage</span>
+                    <span class="badge size">116K</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="section-title">🔍 Variable Comparisons</div>
+        <div class="reports-grid">
+
+            <a href="status_variables_comparison.html" class="report-card">
+                <h2><span class="icon">📊</span>Status Variables</h2>
+                <p>Comparison of MySQL status variables across servers with filtering and search capabilities.</p>
+                <div class="meta">
+                    <span class="badge type">Variables</span>
+                    <span class="badge size">771K</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+
+            <a href="system_variables_comparison.html" class="report-card">
+                <h2><span class="icon">⚙️</span>System Variables</h2>
+                <p>Side-by-side comparison of MySQL system configuration variables and their values.</p>
+                <div class="meta">
+                    <span class="badge type">Configuration</span>
+                    <span class="badge size">925K</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+        </div>
+
+        <footer>
+            <p>Generated reports for MySQL 9.7.0 PGO benchmark analysis</p>
+            <p>Tier configurations: 2G, 12G, 32G | Servers: mysql, mysql-non-pgo</p>
+        </footer>
+    </div>
+</body>
+</html>
