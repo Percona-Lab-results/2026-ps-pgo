@@ -103,7 +103,7 @@ def generate_index_html(reports: Dict[str, List[Dict[str, str]]], output_path: s
 <html>
 <head>
     <meta charset="utf-8">
-    <title>MySQL 9.7.0 PGO Benchmark Reports</title>
+    <title>Percona Server 8.4.9 PGO Benchmark Reports</title>
     <style>
         * {
             margin: 0;
@@ -238,8 +238,8 @@ def generate_index_html(reports: Dict[str, List[Dict[str, str]]], output_path: s
 <body>
     <div class="container">
         <header>
-            <h1>MySQL 9.7.0 PGO Benchmarks</h1>
-            <div class="subtitle">Performance comparison: mysql vs mysql-non-pgo</div>
+            <h1>Percona Server 8.4.9 PGO Benchmarks</h1>
+            <div class="subtitle">Performance comparison: percona-server vs percona-server-non-pgo</div>
         </header>
 '''
 
@@ -287,8 +287,8 @@ def generate_index_html(reports: Dict[str, List[Dict[str, str]]], output_path: s
 
     html += '''
         <footer>
-            <p>Generated reports for MySQL 9.7.0 PGO benchmark analysis</p>
-            <p>Tier configurations: 2G, 12G, 32G | Servers: mysql, mysql-non-pgo</p>
+            <p>Generated reports for Percona Server 8.4.9 PGO benchmark analysis</p>
+            <p>Tier configurations: 2G, 12G, 32G | Servers: percona-server, percona-server-non-pgo</p>
         </footer>
     </div>
 </body>
