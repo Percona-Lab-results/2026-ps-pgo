@@ -103,7 +103,7 @@ def generate_index_html(reports: Dict[str, List[Dict[str, str]]], output_path: s
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Percona Server 8.4.9 PGO Benchmark Reports</title>
+    <title>Percona Server 8.4 and 9.7 PGO Benchmark Reports</title>
     <style>
         * {
             margin: 0;
@@ -238,7 +238,7 @@ def generate_index_html(reports: Dict[str, List[Dict[str, str]]], output_path: s
 <body>
     <div class="container">
         <header>
-            <h1>Percona Server 8.4.9 PGO Benchmarks</h1>
+            <h1>Percona Server 8.4 and 9.7 PGO Benchmarks</h1>
             <div class="subtitle">Performance comparison: percona-server vs percona-server-non-pgo</div>
         </header>
 '''
