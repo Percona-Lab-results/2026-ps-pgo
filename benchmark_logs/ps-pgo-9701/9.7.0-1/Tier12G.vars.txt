@@ -128,12 +128,12 @@ global_connection_memory_status_limit	18446744073709551615
 global_connection_memory_tracking	OFF
 group_concat_max_len	1024
 group_replication_consistency	BEFORE_ON_PRIMARY_FAILOVER
-gtid_executed	96b78794-6eab-11f1-9548-ac1f6bc75c75:1-76053127
+gtid_executed	546ec442-6f90-11f1-8281-ac1f6bc75c75:1-144281638
 gtid_executed_compression_period	0
 gtid_mode	ON
 gtid_next	AUTOMATIC
 gtid_owned	
-gtid_purged	96b78794-6eab-11f1-9548-ac1f6bc75c75:1-4
+gtid_purged	546ec442-6f90-11f1-8281-ac1f6bc75c75:1-4
 have_backup_locks	YES
 have_backup_safe_binlog_info	YES
 have_compress	YES
@@ -587,7 +587,7 @@ select_into_disk_sync_delay	0
 server_id	1
 server_id_bits	32
 server_memory	0
-server_uuid	96b78794-6eab-11f1-9548-ac1f6bc75c75
+server_uuid	546ec442-6f90-11f1-8281-ac1f6bc75c75
 session_track_gtids	OFF
 session_track_schema	ON
 session_track_state_change	OFF
@@ -687,7 +687,7 @@ thread_pool_stall_limit	500
 thread_stack	524288
 thread_statistics	OFF
 time_zone	SYSTEM
-timestamp	1782190179.761942
+timestamp	1782295748.796641
 tls_certificates_enforced_validation	OFF
 tls_ciphersuites	
 tls_version	TLSv1.2,TLSv1.3

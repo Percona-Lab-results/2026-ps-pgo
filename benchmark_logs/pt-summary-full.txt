@@ -1,7 +1,7 @@
 # Percona Toolkit System Summary Report ######################
-        Date | 2026-06-23 02:31:02 UTC (local TZ: UTC +0000)
+        Date | 2026-06-24 05:47:49 UTC (local TZ: UTC +0000)
     Hostname | beast-node6.tp.int.percona.com
-      Uptime | 25 days, 13:31,  7 users,  load average: 0.37, 0.16, 0.09
+      Uptime | 26 days, 16:48,  6 users,  load average: 0.09, 0.07, 0.10
     Platform | Linux
      Release | Ubuntu 24.04 LTS (noble)
       Kernel | 6.8.0-60-generic
@@ -11,19 +11,19 @@ Architecture | CPU = 64-bit, OS = 64-bit
  Virtualized | No virtualization detected
 # Processor ##################################################
   Processors | physical = 2, cores = 40, virtual = 80, hyperthreading = yes
-      Speeds | 1x2799.970, 4x2799.971, 6x2799.972, 2x2799.973, 2x2799.974, 1x2799.975, 1x2799.976, 1x2799.980, 1x2799.981, 1x2799.983, 1x2799.985, 1x2799.987, 2x2799.988, 1x2799.991, 1x2799.994, 1x2799.995, 4x2799.997, 2x2799.998, 9x2800.000, 5x2800.001, 2x2800.002, 1x2800.003, 2x2800.004, 1x2800.007, 1x2800.008, 1x2800.009, 1x2800.010, 2x2800.011, 1x2800.012, 1x2800.016, 2x2800.018, 1x2800.020, 1x2800.021, 2x2800.022, 1x2800.024, 3x2800.025, 2x2800.026, 1x2800.027, 2x2800.028, 3x2800.029, 1x2800.038, 1x2800.041
+      Speeds | 1x2799.955, 1x2799.963, 1x2799.969, 5x2799.970, 4x2799.972, 2x2799.973, 4x2799.974, 3x2799.975, 2x2799.979, 1x2799.980, 1x2799.983, 2x2799.985, 1x2799.986, 1x2799.987, 1x2799.988, 2x2799.990, 1x2799.991, 2x2799.992, 3x2799.993, 3x2799.994, 2x2799.995, 2x2799.996, 4x2799.998, 2x2799.999, 6x2800.000, 2x2800.001, 1x2800.002, 2x2800.004, 3x2800.005, 2x2800.006, 1x2800.008, 1x2800.009, 1x2800.014, 2x2800.015, 1x2800.017, 1x2800.021, 1x2800.023, 1x2800.024, 1x2800.025, 1x2800.027, 1x2800.034, 1x2800.045
       Models | 80xIntel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
       Caches | 80x28160 KB
   Designation               Configuration                  Size     Associativity
   ========================= ============================== ======== ======================
 # Memory #####################################################
          Total | 187.5G
-          Free | 157.0G
-          Used | physical = 4.7G, swap allocated = 8.0G, swap used = 123.8M, virtual = 4.8G
-        Shared | 9.0M
-       Buffers | 27.3G
-        Caches | 182.9G
-         Dirty | 1640 kB
+          Free | 7.3G
+          Used | physical = 4.8G, swap allocated = 8.0G, swap used = 117.0M, virtual = 4.9G
+        Shared | 10.3M
+       Buffers | 176.8G
+        Caches | 182.7G
+         Dirty | 6540 kB
        UsedRSS | 1.7G
     Swappiness | 60
    DirtyPolicy | 20, 10
@@ -33,14 +33,14 @@ Architecture | CPU = 64-bit, OS = 64-bit
 Preferred Node | current
    Node    Size        Free        CPUs
    ====    ====        ====        ====
-   node1   96748 MB    83018 MB    20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 
-   node0   95288 MB    77734 MB    0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 
+   node1   96748 MB    3234 MB     20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 
+   node0   95288 MB    4218 MB     0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 
 
   Locator   Size     Speed             Form Factor   Type          Type Detail
   ========= ======== ================= ============= ============= ===========
 # Mounted Filesystems ########################################
   Filesystem    Size Used Type     Opts                                                                                                 Mountpoint
-  /dev/nvme0n1  2.9T   2% ext4     rw,relatime                                                                                          /mnt/nvme
+  /dev/nvme0n1  2.9T   8% ext4     rw,relatime                                                                                          /mnt/nvme
   /dev/sda1     1.1G   1% vfat     rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro /boot/efi
   /dev/sda2      98G   1% ext4     rw,relatime                                                                                          /boot
   /dev/sda3     780G  14% ext4     rw,relatime                                                                                          /
@@ -66,9 +66,9 @@ Preferred Node | current
          sda | [mq-deadline] 64
 # Disk Partitioning ##########################################
 # Kernel Inode State #########################################
-dentry-state | 185645	167206	45	0	44059	0
-     file-nr | 4672	0	9223372036854775807
-    inode-nr | 150378	17917
+dentry-state | 235719	217083	45	0	51523	0
+     file-nr | 5312	0	9223372036854775807
+    inode-nr | 191078	17907
 # LVM Volumes ################################################
 Unable to collect information
 # LVM Volume Groups ##########################################
@@ -83,8 +83,8 @@ Unable to collect information
 # Interface Statistics #######################################
   interface  rx_bytes rx_packets  rx_errors   tx_bytes tx_packets  tx_errors
   ========= ========= ========== ========== ========== ========== ==========
-  lo       10000000000000 9000000000          0 10000000000000 9000000000          0
-  enp94s0f0   90000000    1250000          0     250000       3000          0
+  lo       15000000000000 15000000000          0 15000000000000 15000000000          0
+  enp94s0f0  100000000    1250000          0     250000       3500          0
   enp94s0f1 17500000000   30000000          0 30000000000   40000000          0
   docker0           0          0          0          0          0          0
 # Network Devices ############################################
@@ -95,15 +95,15 @@ Unable to collect information
   docker0    Unknown!   Unknown!  
 # Top Processes ##############################################
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-3399599 bogdan.+  20   0   22428   6400   4480 R  16.7   0.0   0:00.03 top
-      1 root      20   0   22532  10240   7040 S   0.0   0.0   3:08.74 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:01.95 kthreadd
+3588364 bogdan.+  20   0   22428   6400   4480 R  16.7   0.0   0:00.03 top
+3584809 bogdan.+  20   0 1660028  77472  47360 S   8.3   0.0   0:23.14 MainThr+
+      1 root      20   0   22532  10880   7040 S   0.0   0.0   3:18.27 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:02.02 kthreadd
       3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
       7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
 # Notable Processes ##########################################
   PID    OOM    COMMAND
     ?      ?    sshd doesn't appear to be running

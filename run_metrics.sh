@@ -481,7 +481,7 @@ for SIZE in "${POOL_SIZES[@]}"; do
 
   # 3. MEASUREMENT (three runs per thread count for stability)
   for THREAD in "${THREADS[@]}"; do
-    for RUN in 1; do
+    for RUN in 2 3; do
       FILE_PREFIX="${LOG_DIR}/run${RUN}_Tier${SIZE}G_RW_${THREAD}th"
       echo "   >>> Testing ${THREAD} Threads (run ${RUN}/3)..."
 
